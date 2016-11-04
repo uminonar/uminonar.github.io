@@ -4,15 +4,91 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <meta name=”description” content=”RihoOkuboの自己紹介、ポートフォリオページ” />
+    <title>Riho Okubo | P & P</title>
+    <link rel="stylesheet" href="about.css">
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    
   </head>
   <body>
-    <h1>Hello, world!</h1>
+      <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand " href="#">Profile & Portfoliio</a>
+          </div>
+          <div class="collapse navbar-collapse" id="site-menu">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#">自己紹介</a></li>
+              <li><a href="#">研究テーマ</a></li>
+              <li><a href="#">プロジェクト</a></li>
+              <li><a href="#">海外情報</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                  contact
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">問い合わせフォーム</a></li>
+                  <li><a href="#">オフィス情報</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="logo">
+        <img src="selfee.JPG" alt="selfee">
+      </div>
+    </header>
+     <div class="container">
+      <section>
+        <h1>Riho Okubo</h1>
+        <h3>自己紹介</h3>
+        <p>大久保　理穂（研究者、アーティスト）</p>
+        <p>世界各地を放浪中。現在は南部アフリカに滞在。フリーランスで活動しています。</p>
+        <p>民主主義の本質、<span class="red">未来の民主主義</span>のあり方をテーマに<span class="red">世界のビジョン</span>を描き出すことに使命を感じている。</p>
+        <p>理論的な研究と、それに基づく実践的なプロジェクトを行う。</p>
+        <p>最近はRuby on Railsを学習しながら、社会問題解決のコストを下げるWebプロジェクトのプロトタイプを開発中。</p>
+        <p>興味のある方は<a href="contact.html">こちら</a>からご連絡お願い致します。</p>
+        <h3>プロジェクト紹介</h3>
+        <div class="prj">
+         <img src="msg_board.jpg" alt="prj_logo"><br>
+         <a href="http://newyorkartdiary.blog.fc2.com/" target="_blank">メッセージボード</a>
+        </div>
+         <div class="prj">
+         <img src="twitter_clone.png" alt="prj_logo"><br>
+         <a href="http://newyorkartdiary.blog.fc2.com/" target="_blank">twitterクローン</a>
+        </div>
+         <div class="prj">
+         <img src="monorist.png" alt="prj_logo"><br>
+         <a href="http://newyorkartdiary.blog.fc2.com/" target="_blank">モノリスト</a>
+        </div>
+        <div class="prj">
+         <img src="original.jpeg" alt="prj_logo"><br>
+         <a href="http://newyorkartdiary.blog.fc2.com/" target="_blank">solupping</a>
+        </div>
+        
+        <h3>リンク</h3>
+        <ul>
+          <li><a href="https://github.com/uminonar" target="_blank">GitHub</a></li>
+          <li><a href="https://twitter.com/RihoOkubo" target="_blank">Twitter</a></li>
+        </ul>
+      </section>
+      <footer>
+        <p>&copy; 2016 Riho Okubo.</p>
+      </footer>
+    </div>
   </body>
 </html>
