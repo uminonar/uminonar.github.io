@@ -81,9 +81,14 @@ nav ul li a.selected {
 
 .prj img {
     max-width: 150px;
-    height: 120px
+    height: 120px;
 }
 
+.prj img:hover{
+  box-shadow:3px 3px 6px #111;
+  -moz-box-shadow: 3px 3px 6px #ff0;　/* Firefox用 */  
+  -webkit-box-shadow: 3px 3px 6px #ff0;　/* Safari,Google Chrome用 */ 
+}
 
 
 .prj {
@@ -93,6 +98,10 @@ nav ul li a.selected {
 
 .prj a {
     margin:10px 25px;
+}
+
+.prj p {
+  text-align: center
 }
 
 section {
